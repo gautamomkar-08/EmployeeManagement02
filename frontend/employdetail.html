@@ -23,7 +23,7 @@
     </table>
     <script>
         async function loadEmployees() {
-            const response = await fetch("https://employeemanagement02.onrender.com/api/empoyees");
+            const response = await fetch("https://employeemanagement02.onrender.com/api/employees");
             const employees = await response.json();
             let rows = "";
             employees.forEach(emp => {
