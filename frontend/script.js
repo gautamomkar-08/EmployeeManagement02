@@ -12,7 +12,7 @@ form.addEventListener("submit", async (e) => {
     };
 
     try {
-        const response = await fetch("https://employeemanagement02.onrender.com/api/employee", {
+        const response = await fetch("https://employeemanagement02.onrender.com/api/employees", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
